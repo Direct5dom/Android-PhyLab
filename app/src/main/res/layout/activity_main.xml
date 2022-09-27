@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/findBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取所有传感器列表"/>
+
+    <Button
+        android:id="@+id/openLightBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开光线传感器"/>
+
+    <Button
+        android:id="@+id/openAccelerationBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开加速度传感器"/>
+
+    <Button
+        android:id="@+id/openOrientationBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开方向传感器"/>
+
+    <Button
+        android:id="@+id/openProximityBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开距离传感器"/>
+
+    <Button
+        android:id="@+id/openGPSModuleBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开GPS模块"/>
+
+</LinearLayout>
